@@ -77,8 +77,6 @@ img{
 }
 .nav .list{
 display: flex;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 .studio {
   color: #2e2f42;
@@ -119,6 +117,7 @@ padding-bottom: 24px;
 }
 .item .hed-link{
   color: #2e2f42;
+  padding: 24px 0;
 }
 .item .hed-link:hover{
   color: #404bbf;
