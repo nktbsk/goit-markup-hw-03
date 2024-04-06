@@ -77,7 +77,8 @@ img{
 }
 .nav .list{
 display: flex;
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .studio {
   color: #2e2f42;
