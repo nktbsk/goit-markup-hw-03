@@ -36,6 +36,9 @@ h1 {
   color: #fff;
 }
 /* header */
+.header{
+  border-bottom: 1px solid #e7e9fc
+}
 .nav{
   display: flex;
   align-items: center;
@@ -49,25 +52,41 @@ h1 {
   font-family: "Raleway", sans-serif;
   color:  #4d5ae5;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-.nav .list {
+.nav .item {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
+  margin-right: 40px;
+}
+.nav .item:last-child{
+  margin-right: 0px;
+}
+.nav .list{
+display: flex;
 }
 .studio {
   color: #2e2f42;
 }
-link {
+.link {
   color: #2e2f42;
 }
-link:hover {
+.link:hover {
   color: #404bbf;
 }
-link:active {
+.link:active {
   color: #404bbf;
+}
+.address .item{
+  display: flex;
+  margin-right: 40px;
+}
+.address .item:last-child{
+  margin-right: 0px;
 }
 .address .a-link {
   font-weight: 400;
@@ -83,13 +102,13 @@ link:active {
 .a-link:focus{
   color: #404bbf;
 }
-.list .hed-link{
+.item .hed-link{
   color: #2e2f42;
 }
-.list .hed-link:hover{
+.item .hed-link:hover{
   color: #404bbf;
 }
-.list .hed-link:focus{
+.item .hed-link:focus{
   color: #404bbf;
 }
 .address{
