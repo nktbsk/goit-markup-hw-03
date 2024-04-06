@@ -69,14 +69,15 @@ img{
   font-weight: 500;
   color: #2e2f42;
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav .item:last-child{
   margin-right: 0px;
 }
 .nav .list{
 display: flex;
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 .studio {
   color: #2e2f42;
@@ -159,7 +160,7 @@ max-width: 496px;
  background-color: #404bbf;
 }
 /* section Advantages */
-.advantades{
+.advantages{
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -168,19 +169,21 @@ max-width: 496px;
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .list-advantages{
   display: flex;
 }
 .item-adv{
-  padding-right: 24px;
+  margin-right: 24px;
 }
 .item-adv:last-child{
-  padding-right: 0;
+  margin-right: 0;
 }
 .item-adv{
  width: calc((100% - 72px) / 4);
@@ -275,7 +278,6 @@ max-width: 496px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .name-portfolio {
   font-size: 20px;
@@ -283,6 +285,7 @@ max-width: 496px;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-portfolio {
   font-weight: 400;
