@@ -12,7 +12,7 @@ ul{
   padding-left: 0;
 }
 .container{
-  width: 1158;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -69,14 +69,14 @@ img{
   font-weight: 500;
   color: #2e2f42;
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav .item:last-child{
   margin-right: 0px;
 }
 .nav .list{
 display: flex;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .studio {
   color: #2e2f42;
@@ -160,7 +160,8 @@ max-width: 496px;
 }
 /* section Advantages */
 .advantades{
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden{
   position: absolute;
@@ -265,6 +266,7 @@ max-width: 496px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 .container .list .item{
   width: calc((100% - 48px) / 3);
