@@ -96,7 +96,6 @@ display: flex;
   gap: 40px;
 }
 .a-list .item{
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
